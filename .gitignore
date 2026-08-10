@@ -1,0 +1,27 @@
+# sbt / Scala build artifacts
+target/
+project/target/
+project/project/
+**/target/
+
+# Metals / Bloop / IDE
+.bloop/
+.bsp/
+.metals/
+.scala-build/
+.idea/
+*.iml
+.vscode/
+
+# sbt boot / cache (if ever local)
+.sbt/
+.ivy2/local/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Logs
+*.log
